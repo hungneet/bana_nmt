@@ -1,0 +1,20 @@
+#Khởi tạo môi trường
+conda create -n neural_translation python=3.9
+conda activate neural_translation
+
+#Di chuyển vào thư mục vi-ba-nmt-api-combined
+cd vi-ba-nmt-api-combined
+
+#Cài đặt packages
+pip3 install -r requirements.txt
+
+Này dành cho Windows
+#Chạy file shell vi-ba-nmt-api.bat
+
+vi-ba-nmt-api.bat ( này cho cmd)
+
+Open new cmd , active conda again and :
+python translation_api.py
+
+go back, open new cmd and run:
+python request_api.py
